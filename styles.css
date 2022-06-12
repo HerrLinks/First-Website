@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(assets/topography.webp);
+  font-family: 'Roboto';
+}
+
+.header{
+  background-color: #333333;
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+
+}
+.header ul{
+  text-align: right;
+  width: 100%;
+  color: magenta;
+}
+.header ul li{
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+.header img, .header ul{
+  padding: 0 10%;
+}
+.textblock{
+  padding: 0 10%;
+}
+.textblock h3{
+  color: magenta;
+}
+.technology{
+  padding: 0 10%;
+}
+.technology h1{
+  text-align: center;
+}
